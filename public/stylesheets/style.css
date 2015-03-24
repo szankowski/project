@@ -1,13 +1,13 @@
 body {
 	font-family: Helvetica;
 }
-
 .form-box {
 	margin: 0 auto;
 	margin-top: 10px;
 	background-color: #e8e8e8;
 	width: 300px; 
-	padding: 20px;
+	padding: 20px 20px 6px 20px;
+	border-radius: 10px;
 }
 input {
 	float: right;
@@ -15,4 +15,10 @@ input {
 }
 h1 {
 	text-align: center;
+}
+.form-box h2 {
+	margin: 0;
+}
+.form-box button {
+	margin: 0;
 }
